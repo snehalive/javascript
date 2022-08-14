@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>
+        Javascript String Methods
+    </h2>
+    <p>
+        The substr() method extract a part of a string 
+        and returns the extracted parts in a new string :
+    </p>
+    <p id="demo"></p>
+    <p>
+        The substr() method extract a part of a string 
+        and returns the extracted parts in a new string :
+    </p>
+    <p id="demo2"></p>
+    <p>
+        The substr() method extract a part of a string 
+        and returns the extracted parts in a new string :
+    </p>
+    
+    <p id="demo3"></p>
+
+    <script>
+        let str = "Sneha, Anushree, Ayushi"
+        document.getElementById("demo").innerHTML = str.substr(7,8);
+        let str2 = "Home, House, Villa"
+        document.getElementById("demo2").innerHTML = str2.substr(6);
+        let str3 = "Raja, Chor, Shipahi"
+        document.getElementById("demo3").innerHTML = str3.substr(-13);
+    </script>
+</body>
+</html> 
