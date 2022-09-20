@@ -7,17 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>
-        While loop
-    </h2>
-    <script>
-        let i = 1 , n = 5;
-        // while loop from 1 to 5
-        while( i <= n) {
+    <h2>JavaScript For Loop</h2>
 
-            console.log(i);
-            i +=1;
-        }
-    </script>
+<p id="demo"></p>
+
+<script>
+const cars = ["sneha", "Ayushi", "Anushree", "Radhika", "Aditya"];
+
+let text = "";
+for (let i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
 </body>
 </html>
